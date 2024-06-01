@@ -2,7 +2,7 @@ import chainlit as cl
 import openai
 import os
 
-
+#os.environ['OPEN_API_KEY'] = ''
 # openai.api_key = ''
 
 def get_gpt_output(user_message):
